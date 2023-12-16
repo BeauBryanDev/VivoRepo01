@@ -13,10 +13,10 @@ int main(void) {
 
     int arr[n];
     
-    printf("Please, Type each of the elements from your Array of numbers below\n");
+    printf("Please, Enter all the Elements on your New Array below\n");
     
     for (int i = 0; i < n; i++) {
-        printf("type %d as: ", i);
+        printf("type position ( %d ) as: ", i);
         scanf("%d", &arr[i]);
     }
     printf("\n");
