@@ -28,7 +28,7 @@ int main(void) {
     for (int i = 0; i < n; i++) {
         printf(" %d ,", arr[i]);
     }
-    printf("]\n\n");
+    printf("]\n'It is Sorted Now'\n");
 
     return 0;
 }
@@ -52,10 +52,12 @@ void JustMerge(int arr[], int b1, int mid, int b2) {
     int right_arr[nright];
 
     for (int i = 0; i < nleft; i++) {
+
         left_arr[i] = arr[b1 + i];
     }
 
     for (int j = 0; j < nright; j++) {
+
         right_arr[j] = arr[mid + j + 1];
     }
 
@@ -64,6 +66,7 @@ void JustMerge(int arr[], int b1, int mid, int b2) {
     int p;
 
     for (p = b1; p <= b2; p++) {
+
         if (i < nleft && (j >= nright || left_arr[i] <= right_arr[j])) {
             arr[p] = left_arr[i++];
         } else {
