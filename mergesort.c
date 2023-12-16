@@ -7,7 +7,7 @@ void JustMerge(int arr[], int b1, int mid, int b2);
 int main(void) {
 
     int n;
-
+    printf("Wellcome to Merge_Sort_Algorithm.\n");
     printf("Please, Type n as the size of the array: ");
     scanf("%d", &n);
 
