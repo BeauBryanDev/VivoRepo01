@@ -29,6 +29,7 @@ int main(void) {
         printf(" %d ,", arr[i]);
     }
     printf("]\n'It is Sorted Now'\n");
+    printf("V¿Cheeers\n");
 
     return 0;
 }
