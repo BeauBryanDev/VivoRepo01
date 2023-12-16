@@ -28,7 +28,7 @@ int main(void) {
     for (int i = 0; i < n; i++) {
         printf(" %d ,", arr[i]);
     }
-    printf("]\n'It is Sorted Now'\nCheeers!!!!\n");
+    printf("]\n'It is Sorted Now'\n");
 
     return 0;
 }
