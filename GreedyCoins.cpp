@@ -31,7 +31,7 @@ int main(int argc, char const *argv[]) {
     int targetAmount = 68;
 
     cout << "The minimum number of coins needed for " << targetAmount << " cents is: " 
-         << greedyExchange(coinValues, coinCount, targetAmount) << endl;
+        << greedyExchange(coinValues, coinCount, targetAmount) << endl;
 
     return 0;
 }
